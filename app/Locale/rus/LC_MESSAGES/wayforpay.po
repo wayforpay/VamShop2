@@ -1,0 +1,185 @@
+#: /plugins/payment/view/way_for_pay/settings.ctp
+msgid "Merchant"
+msgstr "Логин в WayForPay"
+
+#: /plugins/payment/views/wayforpay/settings.ctp
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Sender Index"
+msgstr "Индекс отправителя"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Sender Region"
+msgstr "Регион (или город федерального значения) отправителя"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Sender Address"
+msgstr "Адрес отправителя"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Sender Name"
+msgstr "Имя отправителя"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Internet-bank login"
+msgstr "Логин в интернет-банке"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Payment purpose"
+msgstr "Назначение платежа"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Comment"
+msgstr "Комментарий"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "E-mail "
+msgstr "E-mail"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Payment system"
+msgstr "Источник оплаты"
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Phone number in international format. "
+msgstr "Номер телефона в международном формате."
+
+#: /plugins/payment/controller/wayforpaycontroller.php
+msgid "Phone number formatted as 10 digits, w/o +7 or 8."
+msgstr "Номер телефона в формате: 10 цифр, без +7 или 8"
+
+
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Error occured during creating invoice."
+msgstr "Ошибка создания платежного поручения."
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Invoice was created."
+msgstr "Создано платежное поручение."
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered for processing. To complete your payment please <a onclick=\"window.open('/wiretransferreceipt.htm?transactionId=%s&paymentSystem.unitId=%s','newwindow','1,0,0,0,0,resizable=1,scrollbars=1,width=730,height=670');return false;\" href=\"#\">print receipt</a> and make payment in bank office."
+msgstr "Операция оплаты банковским переводом создана и находится в обработке. Для завершения операции <a onclick=\"window.open('https://%payment_server%/wiretransferreceipt.htm?transactionId=%s&paymentSystem.unitId=%s','newwindow','1,0,0,0,0,resizable=1,scrollbars=1,width=730,height=670');return false;\" href=\"#\">распечатайте</a> бланк платежного поручения и оплатите квитанцию в любом банке."
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered for processing. To complete your payment please <a target=\"_blank\" href=\"https://%s/mailofrussiablank.htm?operationId=%s\">print post ticket</a> and proceed with payment in any <a target=\"_blank\" href=\"http://www.russianpost.ru\">Russian Post</a> post office.To view post ticket in PDF format you should have a program <a target=\"_blank\" href=\"http://get.adobe.com/reader/\">Adobe Acrobat Reader</a> installed."
+msgstr "Операция оплаты почтовым переводом создана и находится в обработке. Для завершения операции <a target=\"_blank\" href=\"https://%s/mailofrussiablank.htm?operationId=%s\">распечатайте</a> бланк почтового перевода и проведите электронный платеж в любом отделении связи <a target=\"_blank\" href=\"http://www.russianpost.ru\">Почты России</a>. Для просмотра бланка в формате PDF необходимо иметь установленную на Вашем компьютере программу <a target=\"_blank\" href=\"http://get.adobe.com/reader/\">Adobe Acrobat Reader</a>."
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Total amount: %s"
+msgstr "Сумма к оплате: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Amount: %s"
+msgstr "Сумма: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "External commission: %s"
+msgstr "Внешняя комиссия: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for CiberPay is: %s"
+msgstr "Для оплаты через CiberPay номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with CiberPay system using following <b>MONETA.RU</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через CiberPay, используя вместо номера счета для пополнения данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for ComePay is: %s"
+msgstr "Для оплаты в ComePay номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with ComePay cash payment terminals using following <b>WayForPay</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему WayForPay через терминалы ComePay, используя данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for Forward Mobile is: %s"
+msgstr "Для оплаты через Форвард Мобайл номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with Forward Mobile system using following <b>MONETA.RU</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через Форвард Мобайл, используя вместо номера счета для пополнения данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for NovoPlat is: %s"
+msgstr "Для оплаты через NovoPlat номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with NovoPlat system using following <b>WayForPay</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему WayForPay через NovoPlat, используя данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for PLATiKA is: %s"
+msgstr "Для оплаты через PLATiKA номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with PLATiKA system using following <b>MONETA.RU</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через систему PLATiKA, используя вместо номера счета для пополнения данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for MosCreditBank is: %s"
+msgstr "Для оплаты через терминалы МосКредитБанка номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with MosCreditBank cash payment terminals using following <b>MONETA.RU</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через терминалы Московского Кредитного Банка, используя вместо номера счета для пополнения данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for Elecsnet is: %s"
+msgstr "Для оплаты в Элекснет номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with Elecsnet cash payment terminals using following <b>wayforpay</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему wayforpay через терминалы Элекснет, используя данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for Federal system GOROD is: %s"
+msgstr "Для оплаты через \"Федеральную Систему ГОРОД\" номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with Federal system GOROD using following <b>wayforpay</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему wayforpay через \"Федеральную Систему ГОРОД\", используя данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for Contact is: %s"
+msgstr "Для оплаты в системе \"Contact\" номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with Contact payment system using following <b>MONETA.RU</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через систему \"Contact\", используя вместо номера счета для пополнения данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for Euroset is: %s"
+msgstr "Для оплаты через Евросеть номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with Euroset using following <b>wayforpay</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему wayforpay через Евросеть, используя данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Contract number for Sberbank is: %s"
+msgstr "Для оплаты через \"Сбербанк\" номер счета для пополнения: %s"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Transaction is registered. Please proceed payment with Sberbank using following <b>MONETA.RU</b> account number:"
+msgstr "Операция создана, но не оплачена. Для завершения операции Вам необходимо произвести перечисление средств в систему МОНЕТА.РУ через \"Сбербанк\", используя вместо номера счета для пополнения данный код:"
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Or click on <a href='https://online.sberbank.ru/PhizIC/private/payments/servicesPayments/edit.do?recipient=113368&amp;field(_TCM_IDENT_WlsZid1)=%s'>link</a> to pay by SberbankOnline."
+msgstr "Вы также можете перейти по <a href='https://online.sberbank.ru/PhizIC/private/payments/servicesPayments/edit.do?recipient=113368&amp;field(_TCM_IDENT_WlsZid1)=%s'>ссылке</a> для оплаты с помощью системы СбербанкОнлайн."
+
+#: /vendors/smarty/vam_plugins/function.wayforpay_invoice.php
+msgid "Shows data for invoice payments."
+msgstr "Выводит информацию для платежей оффлайн."
